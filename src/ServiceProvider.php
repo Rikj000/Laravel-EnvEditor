@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\EnvEditor;
+namespace Rikj000\EnvEditor;
 
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\Filesystem;

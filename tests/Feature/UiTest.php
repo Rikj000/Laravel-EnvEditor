@@ -1,9 +1,9 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests\Feature;
+namespace Rikj000\EnvEditor\Tests\Feature;
 
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\EnvEditor\Tests\TestCase;
+use Rikj000\EnvEditor\Facades\EnvEditor;
+use Rikj000\EnvEditor\Tests\TestCase;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\File;
 

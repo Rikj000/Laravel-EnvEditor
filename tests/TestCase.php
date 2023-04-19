@@ -1,9 +1,9 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests;
+namespace Rikj000\EnvEditor\Tests;
 
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\EnvEditor\ServiceProvider;
+use Rikj000\EnvEditor\Facades\EnvEditor;
+use Rikj000\EnvEditor\ServiceProvider;
 use Illuminate\Encryption\Encrypter;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace GeoSot\EnvEditor\Helpers;
+namespace Rikj000\EnvEditor\Helpers;
 
 use Carbon\Carbon;
-use GeoSot\EnvEditor\EnvEditor;
-use GeoSot\EnvEditor\Exceptions\EnvException;
-use GeoSot\EnvEditor\ServiceProvider;
+use Rikj000\EnvEditor\EnvEditor;
+use Rikj000\EnvEditor\Exceptions\EnvException;
+use Rikj000\EnvEditor\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;

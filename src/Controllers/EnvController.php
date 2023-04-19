@@ -1,9 +1,9 @@
 <?php
 
-namespace GeoSot\EnvEditor\Controllers;
+namespace Rikj000\EnvEditor\Controllers;
 
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\EnvEditor\ServiceProvider;
+use Rikj000\EnvEditor\Facades\EnvEditor;
+use Rikj000\EnvEditor\ServiceProvider;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;

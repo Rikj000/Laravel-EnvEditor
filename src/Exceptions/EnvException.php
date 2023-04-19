@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\EnvEditor\Exceptions;
+namespace Rikj000\EnvEditor\Exceptions;
 
 use Exception;
 

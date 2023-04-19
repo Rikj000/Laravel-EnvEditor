@@ -1,7 +1,7 @@
-[![Coverage Status](https://coveralls.io/repos/github/GeoSot/Laravel-EnvEditor/badge.svg)](https://coveralls.io/github/GeoSot/Laravel-EnvEditor)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bdb3a7b58b5d4efc9dbf07be99ae84df)](https://www.codacy.com/manual/geo.sotis/Laravel-EnvEditor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GeoSot/Laravel-EnvEditor&amp;utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f494c7292af300b0c7fc/maintainability)](https://codeclimate.com/github/GeoSot/Laravel-EnvEditor/maintainability)
-[![License](https://poser.pugx.org/geo-sot/laravel-env-editor/license)](https://packagist.org/packages/geo-sot/laravel-env-editor)
+[![Coverage Status](https://coveralls.io/repos/github/Rikj000/Laravel-EnvEditor/badge.svg)](https://coveralls.io/github/Rikj000/Laravel-EnvEditor)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bdb3a7b58b5d4efc9dbf07be99ae84df)](https://www.codacy.com/manual/geo.sotis/Laravel-EnvEditor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rikj000/Laravel-EnvEditor&amp;utm_campaign=Badge_Grade)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f494c7292af300b0c7fc/maintainability)](https://codeclimate.com/github/Rikj000/Laravel-EnvEditor/maintainability)
+[![License](https://poser.pugx.org/rikj000/laravel-env-editor/license)](https://packagist.org/packages/rikj000/laravel-env-editor)
 # Laravel .env Editor (plus GUI) 
 This Package allows to manage Laravel .env file values on the Fly (add, edit, delete keys), upload another .env or create backups
 <br/>
@@ -17,11 +17,11 @@ The inspiration for this package was, [Brotzka/laravel-dotenv-editor](https://gi
 
 1. Install package
     ```bash
-    composer require geo-sot/laravel-env-editor
+    composer require rikj000/laravel-env-editor
     ```
 2. Publish assets 
      ```bash
-     php artisan vendor:publish --provider=GeoSot\EnvEditor\ServiceProvider     
+     php artisan vendor:publish --provider=Rikj000\EnvEditor\ServiceProvider     
       ```      
       This will publish all files:
     * config -> env-editor.php
@@ -37,7 +37,7 @@ The inspiration for this package was, [Brotzka/laravel-dotenv-editor](https://gi
      php artisan vendor:publish --tag=views
      
      //Publish specific Tag from this Vendor
-     php artisan vendor:publish --provider=GeoSot\EnvEditor\ServiceProvider --tag=config  
+     php artisan vendor:publish --provider=Rikj000\EnvEditor\ServiceProvider --tag=config  
  
      ```
      

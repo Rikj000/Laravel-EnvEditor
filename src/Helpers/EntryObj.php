@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\EnvEditor\Helpers;
+namespace Rikj000\EnvEditor\Helpers;
 
 use Illuminate\Support\Arr;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests\Unit\Helpers;
+namespace Rikj000\EnvEditor\Tests\Unit\Helpers;
 
-use GeoSot\EnvEditor\EnvEditor;
-use GeoSot\EnvEditor\Exceptions\EnvException;
-use GeoSot\EnvEditor\Helpers\EntryObj;
-use GeoSot\EnvEditor\Helpers\EnvFileContentManager;
-use GeoSot\EnvEditor\Tests\TestCase;
+use Rikj000\EnvEditor\EnvEditor;
+use Rikj000\EnvEditor\Exceptions\EnvException;
+use Rikj000\EnvEditor\Helpers\EntryObj;
+use Rikj000\EnvEditor\Helpers\EnvFileContentManager;
+use Rikj000\EnvEditor\Tests\TestCase;
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\Filesystem;
 
@@ -38,7 +38,7 @@ class EnvFileContentManagerTest extends TestCase
         self::expectException(EnvException::class);
         $file = config('env-editor.paths.backupDirectory').DIRECTORY_SEPARATOR.'not-existed-file';
         self::expectExceptionMessage('File "'.$file.'" does not Exists !!!');
-        \GeoSot\EnvEditor\Facades\EnvEditor::getFilePath('not-existed-file');
+        \Rikj000\EnvEditor\Facades\EnvEditor::getFilePath('not-existed-file');
     }
 
     /**

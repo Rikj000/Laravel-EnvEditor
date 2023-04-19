@@ -1,6 +1,6 @@
 <?php
 
-use GeoSot\EnvEditor\Controllers\EnvController;
+use Rikj000\EnvEditor\Controllers\EnvController;
 use Illuminate\Support\Facades\Route;
 
 $routeMainName = config('env-editor.route.name');

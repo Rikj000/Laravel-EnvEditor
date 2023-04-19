@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\EnvEditor\Facades;
+namespace Rikj000\EnvEditor\Facades;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
@@ -22,7 +22,7 @@ use Symfony\Component\HttpFoundation\File\File;
  * @method static bool   restoreBackUp(string $fileName)
  * @method static mixed config(string $key, $default = null)
  *
- * @see \GeoSot\EnvEditor\EnvEditor
+ * @see \Rikj000\EnvEditor\EnvEditor
  */
 class EnvEditor extends Facade
 {
@@ -31,6 +31,6 @@ class EnvEditor extends Facade
      */
     protected static function getFacadeAccessor(): string
     {
-        return \GeoSot\EnvEditor\EnvEditor::class;
+        return \Rikj000\EnvEditor\EnvEditor::class;
     }
 }

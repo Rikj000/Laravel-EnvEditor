@@ -1,11 +1,11 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests\Unit\Helpers;
+namespace Rikj000\EnvEditor\Tests\Unit\Helpers;
 
-use GeoSot\EnvEditor\EnvEditor;
-use GeoSot\EnvEditor\Exceptions\EnvException;
-use GeoSot\EnvEditor\Helpers\EnvFilesManager;
-use GeoSot\EnvEditor\Tests\TestCase;
+use Rikj000\EnvEditor\EnvEditor;
+use Rikj000\EnvEditor\Exceptions\EnvException;
+use Rikj000\EnvEditor\Helpers\EnvFilesManager;
+use Rikj000\EnvEditor\Tests\TestCase;
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;

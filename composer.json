@@ -1,8 +1,8 @@
 {
-    "name": "geo-sot/laravel-env-editor",
+    "name": "rikj000/laravel-env-editor",
     "description": "A laravel Package that supports .Env File, editing and backup ",
     "keywords": [
-        "geo-sot",
+        "rikj000",
         "laravel",
         "laravel-env-editor",
         "EnvEditor"
@@ -12,6 +12,12 @@
         {
             "name": "Geo Sot",
             "email": "geo.sotis@gmail.com"
+        },
+        {
+            "name": "Rik Helsen",
+            "email": "rik_helsen@hotmail.com",
+            "homepage": "https://github.com/rikj000",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -25,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "GeoSot\\EnvEditor\\": "src/"
+            "Rikj000\\EnvEditor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GeoSot\\EnvEditor\\Tests\\": "tests"
+            "Rikj000\\EnvEditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GeoSot\\EnvEditor\\ServiceProvider"
+                "Rikj000\\EnvEditor\\ServiceProvider"
             ],
             "aliases": {
-                "EnvEditor": "GeoSot\\EnvEditor\\Facades\\EnvEditor"
+                "EnvEditor": "Rikj000\\EnvEditor\\Facades\\EnvEditor"
             }
         }
     },

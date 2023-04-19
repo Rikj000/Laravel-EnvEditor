@@ -1,12 +1,12 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests\Unit\Helpers;
+namespace Rikj000\EnvEditor\Tests\Unit\Helpers;
 
-use GeoSot\EnvEditor\EnvEditor;
-use GeoSot\EnvEditor\Exceptions\EnvException;
-use GeoSot\EnvEditor\Facades\EnvEditor as EnvEditorFacade;
-use GeoSot\EnvEditor\Helpers\EnvKeysManager;
-use GeoSot\EnvEditor\Tests\TestCase;
+use Rikj000\EnvEditor\EnvEditor;
+use Rikj000\EnvEditor\Exceptions\EnvException;
+use Rikj000\EnvEditor\Facades\EnvEditor as EnvEditorFacade;
+use Rikj000\EnvEditor\Helpers\EnvKeysManager;
+use Rikj000\EnvEditor\Tests\TestCase;
 use Illuminate\Config\Repository;
 use Illuminate\Filesystem\Filesystem;
 

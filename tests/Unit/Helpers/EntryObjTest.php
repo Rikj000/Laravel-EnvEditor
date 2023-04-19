@@ -1,8 +1,8 @@
 <?php
 
-namespace GeoSot\EnvEditor\Tests\Unit\Helpers;
+namespace Rikj000\EnvEditor\Tests\Unit\Helpers;
 
-use GeoSot\EnvEditor\Helpers\EntryObj;
+use Rikj000\EnvEditor\Helpers\EntryObj;
 use PHPUnit\Framework\TestCase;
 
 class EntryObjTest extends TestCase
